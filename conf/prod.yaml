@@ -1,0 +1,17 @@
+webservice:
+    host: 0.0.0.0 #Either 127.0.0.1 (accessible from your own computer) or 0.0.0.0 (externally visible)
+    port: 5000
+    debug: False
+    api_version_string: '/api/v1'
+
+database:
+    ip_address: service_discovery_db
+    port: 5432
+    user: servicediscovery
+    password: mysecretpassword
+    database: servicediscovery
+    dialect: postgresql
+
+opcuaserver:
+    ip_address: 0.0.0.0
+    port: 4840
